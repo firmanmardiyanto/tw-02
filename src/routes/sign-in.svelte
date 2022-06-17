@@ -24,8 +24,12 @@
 	}
 </script>
 
-<h1 class="text-2xl font-semibold text-center">Sign In</h1>
-{#if error}
-	<p class="mt-3 text-red-500 text-center font-semibold">{error}</p>
-{/if}
-<SignInForm class="max-w-xl mx-auto mt-8" on:submit={handleSubmit} />
+<div class="flex items-center justify-center h-screen">
+	<div class="w-2/5">
+		<h1 class="text-2xl font-semibold text-center">Sign In</h1>
+		{#if error}
+			<p class="mt-3 text-red-500 text-center font-semibold">{error}</p>
+		{/if}
+		<SignInForm class="max-w-xl mx-auto mt-8" on:submit={handleSubmit} />
+	</div>
+</div>
