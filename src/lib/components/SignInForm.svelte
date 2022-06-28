@@ -28,4 +28,10 @@
 		required
 	/>
 	<Button type="submit">Sign In</Button>
+	<a href="http://localhost:1337/api/connect/google">
+		<Button type="submit">Google</Button>
+	</a>
+	<a href="http://localhost:1337/api/connect/facebook">
+		<Button type="submit">Facebook</Button>
+	</a>
 </form>
